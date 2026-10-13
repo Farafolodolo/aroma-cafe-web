@@ -21,3 +21,10 @@ footer {
   text-align: center;
   padding: 1rem;
 }
+
+/* Menu cards */
+.menu-list { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem; }
+.menu-card { background: #fff; border-radius: 12px; padding: 1.25rem; box-shadow: 0 4px 12px rgba(123, 63, 0, 0.15); border-top: 4px solid var(--primary); transition: transform 0.2s; }
+.menu-card:hover { transform: translateY(-4px); }
+.menu-card h2 { margin: 0 0 0.5rem; color: var(--primary); }
+.menu-card .price { font-weight: bold; }
