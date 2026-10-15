@@ -1,0 +1,5 @@
+﻿.gallery-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+.gallery-grid figure { margin: 0; text-align: center; }
+.gallery-grid .photo { height: 160px; display: flex; align-items: center; justify-content: center; color: #fff; background: linear-gradient(135deg, var(--primary), #c88a4a); border-radius: 12px; transition: transform 0.2s; }
+.gallery-grid .photo:hover { transform: scale(1.04); }
+.gallery-grid figcaption { margin-top: 0.5rem; font-style: italic; }
